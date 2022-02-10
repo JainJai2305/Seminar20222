@@ -1,0 +1,51 @@
+slide 1
+Officially launched in 1999 the OpenCV project was initially an Intel Research initiative to advance 
+CPU-intensive applications, part of a series of projects including real-time ray tracing and 3D display walls.[4] 
+The main contributors to the project included a number of optimization experts in Intel Russia, as well as 
+Intel's Performance Library Team.
+
+Originally developed by Intel and launched in 1999.
+
+Open CV has wide range of applications in programming and technology
+2D and 3D feature toolkits
+Egomotion estimation
+Facial recognition system
+Gesture recognition
+Human–computer interaction (HCI)
+Mobile robotics
+Motion understanding
+Object detection
+Structure from motion (SFM)
+Motion tracking
+Augmented reality
+and many more
+
+slide 2
+Image recognition, in the context of machine vision, is the ability of software to identify objects, places, people,
+ writing and actions in images. Computers can use machine vision technologies in combination with a camera and 
+artificial intelligence software to achieve image recognition.
+
+Current and future applications of image recognition include smart photo libraries, targeted advertising, 
+the interactivity of media, accessibility for the visually impaired and enhanced research capabilities
+
+slide 3
+OpenCV comes with a function cv.matchTemplate() for this purpose. 
+It simply slides the template image over the input image (as in 2D convolution) and compares the 
+template and patch of input image under the template image.Open CV provides 6 algorithms to do so
+
+slide 4 
+TM_CCOEFF stands for Template Matching Correlation coefficien
+Here is how it works
+when bright parts of the template and image overlap you'll get a positive value in the dot product, 
+as well as when dark parts overlap with dark parts (-ve value x -ve value gives +ve value). 
+That means you get a +ve score for both bright parts matching and dark parts matching.
+When you have dark on template (-ve) and bright on image (+ve) you get a -ve value. 
+And when you have bright on template (+ve) and dark on image (-ve) you also get a -ve value. 
+This means you get a negative score on mismatches.
+
+slide 5
+ based on documentation formulas and research paper TM_CCORR is the direct ("simplest") correlation between template
+ and image:result pixel is the sum of the dot product of between the template pixel and and image pixel for each pixel 
+in the template.As the template "slides" through the image, the result image is computed
+
+slide 6

@@ -1,0 +1,26 @@
+Voter  ---- Information about the Voter
+VoterId : VoterId from VoterId of a person
+Ano : Aadhar car number of the voter
+Name : Name of the person
+Age : Age of the person for eligibility
+pno : Phone number of the person
+isEligible : A boolean Value which will determine whether the user iseligible for vote based on his given information.
+
+
+Party 
+pname: Name of the party
+nvotes: Number of votes party has 
+symbol: Symbol representing a particular party
+reprname: Name of the representative who is representing the party in that area
+Info about the party
+pname : Party's name
+symbol : Party's symbol
+representative : person whois representing the party
+
+Machine/Server 
+AdminId : Identification of the person who is incharge for the particular machine or server
+admin: Name of the admin
+area: which area he is incharge of 
+mid: identification of a particular machine 
+
+
